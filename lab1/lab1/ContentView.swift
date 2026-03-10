@@ -96,6 +96,7 @@ struct ContentView: View {
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
+            .ignoresSafeArea(edges: .all)
             VStack {
                 Spacer()
                 
